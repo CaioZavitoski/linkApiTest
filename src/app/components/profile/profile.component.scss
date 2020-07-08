@@ -1,0 +1,104 @@
+.movies-span {
+  font-weight: bold;
+  color: #3cc896;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+.logo {
+  width: 200px;
+  // width: 18%;
+}
+
+.main-content {
+  margin-top: 50px;
+  font-size: 30px;
+  line-height: 1.3;
+  letter-spacing: 0.7px;
+
+  input {
+    width: 45%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1.5px #dfe5da;
+    border-radius: none;
+    margin-left: 62px;
+    padding-left: 10px;
+    margin-top: 0px;
+    color: #6f7e6f;
+
+  }
+
+  input::placeholder {
+    color: #6f7e6f;
+    opacity: 0.7;
+
+  }
+
+  input:focus {
+    outline: none !important;
+    box-shadow: none;
+    color: #6f7e6f;
+
+  }
+
+  select {
+    display: block;
+    width: 45%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1.5px #dfe5da;
+    border-radius: none;
+    margin-left: 62px;
+    padding-left: 10px;
+    margin-top: 0px;
+    color: #6f7e6f;
+  }
+
+  select:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
+
+  label {
+    font-size: 18px;
+    margin-left: 60px;
+    color: #414646;
+    letter-spacing: 0;
+    line-height: 0;
+    margin-bottom: 0px;
+  }
+}
+
+.bottom-buttons {
+  padding-top: 50px;
+
+  .btn-cancel {
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+    background-color: white;
+    border: white;
+    color: #6f7e6f;
+  }
+
+  .btn-save {
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.2;
+    color: white;
+    background-color: #3cc896;
+    border: #3cc896;
+    border-radius: 8px;
+  }
+
+  .btn:focus,
+  .btn:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+}
