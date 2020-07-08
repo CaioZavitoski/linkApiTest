@@ -7,7 +7,6 @@
 
 .logo {
   width: 200px;
-  // width: 18%;
 }
 
 .main-content {
@@ -27,20 +26,17 @@
     padding-left: 10px;
     margin-top: 0px;
     color: #6f7e6f;
-
   }
 
   input::placeholder {
     color: #6f7e6f;
     opacity: 0.7;
-
   }
 
   input:focus {
     outline: none !important;
     box-shadow: none;
     color: #6f7e6f;
-
   }
 
   select {

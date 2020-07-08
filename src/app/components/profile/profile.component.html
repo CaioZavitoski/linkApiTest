@@ -15,33 +15,34 @@
       <div class="col-sm-6 mt-5">
         <label for="name">Name</label>
         <input
-          type="email"
+          type="text"
           class="form-control"
-          id="name"
-          aria-describedby="emailHelp"
           placeholder="John Wick"
           autocomplete="off"
+          [(ngModel)]="inputName"
         />
-        <label for="name">Age</label>
+        <label for="age">Age</label>
         <input
-          type="email"
+          type="text"
           class="form-control"
-          id="name"
-          aria-describedby="emailHelp"
           placeholder="24"
           autocomplete="off"
+          [(ngModel)]="inputAge"
         />
-        <label for="name">Favorite movie</label>
+        <label for="favoriteMovie">Favorite movie</label>
         <input
-          type="email"
+          type="text"
           class="form-control"
-          id="name"
-          aria-describedby="emailHelp"
           placeholder="Sharknado 2"
           autocomplete="off"
+          [(ngModel)]="favoriteMovie"
         />
-        <label for="name">Favorite genre</label>
-        <select name="genre-select" class="custom-select">
+        <label for="favoriteGenre">Favorite genre</label>
+        <select
+          [(ngModel)]="favoriteGenre"
+          name="genre-select"
+          class="custom-select"
+        >
           <option value="Horror" selected>Horror</option>
           <option value="Comedy">Comedy</option>
           <option value="Suspense">Suspense</option>
@@ -52,7 +53,11 @@
   <div class="bottom-buttons mt-5">
     <div class="row justify-content-end">
       <div class="col-sm-3">
-        <button class="btn btn-primary btn-cancel" type="submit">
+        <button
+          class="btn btn-primary btn-cancel"
+          type="submit"
+          (click)="clearFields()"
+        >
           Cancel
         </button>
         <button class="btn btn-primary btn-save" type="submit">
