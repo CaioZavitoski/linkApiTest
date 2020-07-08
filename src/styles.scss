@@ -1,3 +1,48 @@
 body {
   color: #6f7e6f;
 }
+
+.form-control {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1.5px #dfe5da;
+}
+
+.input-group:focus,
+.input-group:active {
+  outline: none !important;
+  box-shadow: none;
+  color: #6f7e6f;
+}
+
+.form-control::placeholder {
+  color: #6f7e6f;
+  opacity: 0.7;
+}
+
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none;
+  color: #6f7e6f;
+}
+
+.custom-select {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1.5px #dfe5da;
+  border-radius: none;
+}
+
+.custom-select:focus,
+.custom-select:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}

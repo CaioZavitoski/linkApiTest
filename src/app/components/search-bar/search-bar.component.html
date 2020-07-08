@@ -1,0 +1,31 @@
+<app-header></app-header>
+<div class="row justify-content-start">
+  <div class="col-sm-12">
+    <div class="input-group">
+      <div class="input-group-append">
+        <fa-icon [icon]="faSearch" class="mt-5 mr-2 icon"></fa-icon>
+      </div>
+      <input
+        type="text"
+        class="form-control mt-5"
+        placeholder="Search movies, actors or genre"
+        autocomplete="off"
+      />
+      <span class="mt-5 ml-5">Favorites</span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12 text-center">
+    <img
+      src="../../../assets/nomovie.svg"
+      class="img-fluid img-not-found"
+      alt="notFound"
+    />
+
+    <div class="movie-not-found text-left">
+      <b>No movies found!</b> <br />
+      Reset your filters to find something
+    </div>
+  </div>
+</div>

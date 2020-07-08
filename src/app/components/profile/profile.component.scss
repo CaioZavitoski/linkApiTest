@@ -17,45 +17,20 @@
 
   input {
     width: 45%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: solid 1.5px #dfe5da;
     border-radius: none;
     margin-left: 62px;
     padding-left: 10px;
     margin-top: 0px;
-    color: #6f7e6f;
-  }
-
-  input::placeholder {
-    color: #6f7e6f;
-    opacity: 0.7;
-  }
-
-  input:focus {
-    outline: none !important;
-    box-shadow: none;
     color: #6f7e6f;
   }
 
   select {
     display: block;
     width: 45%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: solid 1.5px #dfe5da;
-    border-radius: none;
     margin-left: 62px;
     padding-left: 10px;
     margin-top: 0px;
     color: #6f7e6f;
-  }
-
-  select:focus {
-    outline: none !important;
-    box-shadow: none;
   }
 
   label {
@@ -90,11 +65,5 @@
     background-color: #3cc896;
     border: #3cc896;
     border-radius: 8px;
-  }
-
-  .btn:focus,
-  .btn:active {
-    outline: none !important;
-    box-shadow: none;
   }
 }

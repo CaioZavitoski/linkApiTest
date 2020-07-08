@@ -1,0 +1,41 @@
+.input-group {
+  font-size: 18x;
+  font-weight: 460;
+
+  span {
+    padding-top: 11px;
+    font-size: 18px;
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  input:focus,
+  input:active {
+    border-bottom: solid 1.5px #dfe5da;
+    box-shadow: none;
+    color: #6f7e6f;
+  }
+}
+
+.input-group-append {
+  border-bottom: solid 1.5px #dfe5da;
+}
+
+.icon {
+  padding-top: 7px;
+  padding-left: 10px;
+  opacity: 0.7;
+}
+
+.img-not-found {
+  width: 29%;
+  margin-top: 130px;
+}
+
+.movie-not-found {
+  margin-top: 20px;
+  padding-left: 400px;
+  color: #a4ada4;
+  opacity: 0.9;
+  font-size: 20px;
+}
