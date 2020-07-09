@@ -1,3 +1,4 @@
+import { FilmsListService } from './../../services/films-list.service';
 import { Component, OnInit } from '@angular/core';
 import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
@@ -7,10 +8,14 @@ import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./search-bar.component.scss'],
 })
 export class SearchBarComponent implements OnInit {
-  constructor() {}
+  constructor(private filmService: FilmsListService) {}
+
+  films;
 
   faSearch = faSearch;
   faUserCircle = faUserCircle;
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.films = this.filmService.getFilms();
+  }
 }

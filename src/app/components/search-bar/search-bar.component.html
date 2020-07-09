@@ -14,15 +14,21 @@
       <span class="mt-5 ml-5">Favorites</span>
     </div>
   </div>
+  <div class="col-sm-2 posters-list" *ngFor="let film of films | async">
+    <a href="http://">
+      <img [src]="film.poster" class="img-fluid img-posters" alt="posters" />
+    </a>
+  </div>
 </div>
-<div class="row">
-  <div class="col-sm-12 text-center">
-    <img
-      src="../../../assets/nomovie.svg"
-      class="img-fluid img-not-found"
-      alt="notFound"
-    />
 
+<div class="col-sm-12 text-center" *ngIf="!films">
+  <img
+    src="../../../assets/nomovie.svg"
+    class="img-fluid img-not-found"
+    alt="notFound"
+  />
+
+  <div>
     <div class="movie-not-found text-left">
       <b>No movies found!</b> <br />
       Reset your filters to find something
