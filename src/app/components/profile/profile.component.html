@@ -19,6 +19,8 @@
         placeholder="John Wick"
         autocomplete="off"
         [(ngModel)]="inputName"
+        [value]="inputName"
+        #name
       />
       <label for="age">Age</label>
       <input
@@ -27,6 +29,8 @@
         placeholder="24"
         autocomplete="off"
         [(ngModel)]="inputAge"
+        [value]="inputAge"
+        #age
       />
       <label for="favoriteMovie">Favorite movie</label>
       <input
@@ -35,12 +39,14 @@
         placeholder="Sharknado 2"
         autocomplete="off"
         [(ngModel)]="favoriteMovie"
+        #movie
       />
       <label for="favoriteGenre">Favorite genre</label>
       <select
         [(ngModel)]="favoriteGenre"
         name="genre-select"
         class="custom-select"
+        #genre
       >
         <option value="Horror" selected>Horror</option>
         <option value="Comedy">Comedy</option>
@@ -59,7 +65,13 @@
       >
         Cancel
       </button>
-      <button routerLink="/movies" class="btn btn-primary btn-save" type="submit">
+      <button
+        routerLink="/movies"
+        class="btn btn-primary btn-save"
+        type="submit"
+        (click)="saveProfile(name.value, age.value, movie.value, genre.value)"
+        [value]="inputName"
+      >
         Save profile
       </button>
     </div>
