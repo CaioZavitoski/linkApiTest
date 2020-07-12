@@ -8,14 +8,15 @@ import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./search-bar.component.scss'],
 })
 export class SearchBarComponent implements OnInit {
+  
   constructor(private filmService: FilmsListService) {}
 
-  films;
+  movies;
 
   faSearch = faSearch;
   faUserCircle = faUserCircle;
 
   ngOnInit(): void {
-    this.films = this.filmService.getFilms();
+    this.movies = this.filmService.getFilms();
   }
 }
