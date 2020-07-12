@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img width="50%" src="https://extrato.vtex.com/images/linkapi_avatar-linkapiX800.png">
+  <img width="30%" src="https://extrato.vtex.com/images/linkapi_avatar-linkapiX800.png">
 </p>
 
 <p align="center">
@@ -12,7 +12,6 @@ Olá! esse é meu desafio realizado para a <b>linkApi.
   <hr />
 
  # Como utilizar a aplicação
- ## API
 
  1.  Clone o projeto utilizando o comando **git clone** para um diretório. 
  2.  No diretório onde foi clonado o projeto, acesse a pasta.
