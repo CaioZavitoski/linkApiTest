@@ -6,7 +6,10 @@
 </p>
 
 <p align="center">
+  
   Olá! esse é meu desafio realizado para a <b>linkApi.</b>
+  
+  <br>
   
   Esqueci de pegar a documentação da API, fazendo com que eu não soubesse filtrar algumas queries :(
   
