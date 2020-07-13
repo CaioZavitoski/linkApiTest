@@ -10,6 +10,8 @@
   Olá! esse é meu desafio realizado para a <b>linkApi.</b>
   
 </p>
+
+  <br>
   
 <p>
 
@@ -20,9 +22,6 @@ Me desculpem, mas nem todas as funcionalidades foram entregues.
 Espero que mesmo assim vocês possam avaliar meu codigo ❤
 
 </p>
-
-
-  <br>
  
   <hr />
 
