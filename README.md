@@ -6,12 +6,10 @@
 </p>
 
 <p align="center">
-  
-  Olá! esse é meu desafio realizado para a <b>linkApi.</b>
-  
+  Olá! esse é meu desafio realizado para a <b>linkApi.
 </p>
 
-  <br>
+<br>
   
 <p>
 
