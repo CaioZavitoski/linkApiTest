@@ -8,8 +8,6 @@
 <p align="center">
   Olá! esse é meu desafio realizado para a <b>linkApi.
 </p>
-
-<br>
  
   <hr />
 
