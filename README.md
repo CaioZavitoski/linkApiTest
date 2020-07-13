@@ -8,6 +8,16 @@
 <p align="center">
   Olá! esse é meu desafio realizado para a <b>linkApi.
 </p>
+  
+  <p>
+
+Esqueci de pegar a documentação da API, fazendo com que eu não soubesse filtrar algumas queries :(
+
+Me desculpem, mas nem todas as funcionalidades foram entregues.
+
+Espero que mesmo assim vocês possam avaliar meu codigo ❤
+
+</p>
  
   <hr />
 
